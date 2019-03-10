@@ -1,0 +1,74 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-03-10T19:12:06.145Z",
+    "end": "2019-03-10T19:12:06.698Z",
+    "duration": 553
+  },
+  "tests": [
+    {
+      "title": "no longer has DOM node 'main#main'",
+      "fullTitle": "index.html after index.js is processed no longer has DOM node 'main#main'",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a 'newHeader' variable that points to node 'h1#victory'",
+      "fullTitle": "index.html after index.js is processed has a 'newHeader' variable that points to node 'h1#victory'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a 'newHeader' variable that points to node 'h1#victory'",
+      "fullTitle": "index.html after index.js is processed has a 'newHeader' variable that points to node 'h1#victory'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a 'newHeader' variable that points to node 'h1#victory' with \"YOUR-NAME is the champion\" inside",
+      "fullTitle": "index.html after index.js is processed has a 'newHeader' variable that points to node 'h1#victory' with \"YOUR-NAME is the champion\" inside",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "no longer has DOM node 'main#main'",
+      "fullTitle": "index.html after index.js is processed no longer has DOM node 'main#main'",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a 'newHeader' variable that points to node 'h1#victory'",
+      "fullTitle": "index.html after index.js is processed has a 'newHeader' variable that points to node 'h1#victory'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a 'newHeader' variable that points to node 'h1#victory'",
+      "fullTitle": "index.html after index.js is processed has a 'newHeader' variable that points to node 'h1#victory'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a 'newHeader' variable that points to node 'h1#victory' with \"YOUR-NAME is the champion\" inside",
+      "fullTitle": "index.html after index.js is processed has a 'newHeader' variable that points to node 'h1#victory' with \"YOUR-NAME is the champion\" inside",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
