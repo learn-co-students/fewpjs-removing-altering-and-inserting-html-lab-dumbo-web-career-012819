@@ -4,12 +4,12 @@ describe("index.html", () => {
       expect(document.querySelector('main'), "Make sure you remove the <main> with id 'main'").to.not.exist
     });
 
-    it("has a 'newHeader' variable that points to node 'h1#victory'", () => {
-      expect(newHeader.nodeName, "Make sure you create an <h1> with id 'victory'").eql('H1')
+    it("has a 'newHeader' variable that points to node 'h1'", () => {
+      expect(newHeader.nodeName, "Make sure you create an <h1>").eql('H1')
     });
 
     it("has a 'newHeader' variable that points to node 'h1#victory'", () => {
-      expect(newHeader.id, "Make sure you create an <h1> with id 'victory'").eql('victory')
+      expect(newHeader.id, "Make sure you add an id 'victory' to your <h1> tag").eql('victory')
     });
 
     it("has a 'newHeader' variable that points to node 'h1#victory' with \"YOUR-NAME is the champion\" inside", () => {
